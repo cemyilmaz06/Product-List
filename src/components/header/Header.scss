@@ -1,0 +1,38 @@
+@import "../../scss/mixins";
+@import "../../scss/variables";
+
+
+.header{
+    // display: flex;
+    // flex-direction: column;
+    text-align: center;
+    margin-top: 5rem;
+    padding: 0.5rem;
+}
+.baslik{
+    color: $cardNavBgColor;
+    font-size: 2.3rem;
+    font-family: monospace;
+    margin-bottom: 1rem;
+}
+.btnDiv{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.btnDiv button{
+    padding: 1rem;
+    border: none;
+    border-radius: 1rem;
+ text-transform: uppercase;
+ cursor: pointer;
+ transition: all 1s;
+ &:hover{
+    background-color: $btnHoverColor;
+ }
+}
+
