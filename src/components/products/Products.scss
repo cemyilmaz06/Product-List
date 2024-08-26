@@ -17,7 +17,8 @@
     &-over{
         width: 100%;
         position: absolute;
-        bottom: 0%;
+        bottom: 0;
+        font-size: 1.2rem;
         background-color: $cardBgColor;
         padding:$cardPadding;
         border-radius: $borderRadius;
