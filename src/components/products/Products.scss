@@ -24,6 +24,7 @@
         color: darken(white,50%);//darken verilen color u silikleştirir
       transform: translateX(100%);
       transition:transform 0.7s;
+      overflow: hidden;
     }
     &:hover .card-over{
 transform: translateX(0%);
